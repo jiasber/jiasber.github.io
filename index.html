@@ -7,5 +7,11 @@
 </head>
 <body>
     hello
+    <button onclick="login()">登录</button>
 </body>
 </html>
+<script>
+    function login(){
+        window.location.href = "https://accounts.google.com/o/oauth2/v2/auth?client_id=616549333453-ics62gs87stgusvlq5l1vigfr8tq3bjp.apps.googleusercontent.com&redirect_uri=jiasber.github.io&scope=https%3A//www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile%20openid&access_type=offline&include_granted_scopes=true&response_type=code&prompt=consent"
+    }
+</script>
